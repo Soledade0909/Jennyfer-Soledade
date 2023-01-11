@@ -1,0 +1,139 @@
+/* DIMENSÕES E LAYOUT*/
+#tudo{
+    max-width: 1926px;
+    min-width: 280px;
+    max-height: 1368px;
+    min-height: 600px;
+
+}
+
+#menu_menor{
+    width: 150%;
+    height: 3%;
+ 
+}
+
+/* Painel de Navegação */
+.navbar-custom {
+    min-height: 2rem;
+    max-height: 4rem;
+    width: auto;
+
+    
+}
+.navbar-custom img{
+    max-height: 1.2rem;
+    min-height: 0.5rem;
+}
+/* MENU MENOR*/
+
+.menu_rede {
+    background-color: #C5D4EB;
+    min-height: 2rem;
+    max-height: 4rem;
+
+
+    
+}
+.icon{
+    max-height: 1.2rem;
+    min-height: 0.5rem;
+}
+.sou {
+    background-color: #6081B3;
+  
+}
+@media (max-width:768px){
+    .redes{
+        margin-left: 2rem;
+    }
+    .foto{
+        max-width: 5rem;
+        min-width: 1rem;
+        height: auto;
+    }
+    .apre {
+        background-color: #374A66;
+        
+       
+    }
+    .apre h2{
+        color:#6081B3;
+        background-color: #C5D4EB;
+        width: 12rem;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        top: -13rem;
+
+    }
+    #red{
+        position: relative;
+        top: -6rem;
+    }
+    .sou {
+        position: relative;
+        left: 0rem;
+        top: 0rem;
+      
+    }
+}
+
+/* MENU MAIOR*/
+.link-custom a{
+    max-width:10rem;
+    min-width: 6rem;
+    font-size: 1.5rem;
+    
+}
+.link-custom a :hover {
+    text-decoration: underline;
+    background-color: aqua;
+    color: white;
+}
+/*Apresentacao*/
+.foto{
+    max-width: 40rem;
+    min-width: 5rem;
+    height: auto;
+}
+.card-horizontal{
+    display: flex;
+    flex: 1 1 auto;
+}
+@media (min-width:768px) {
+    #red{
+        background-color:#374A66;
+        z-index: 0;
+        position: relative;
+        top: -25rem;
+        left:-5rem;
+        max-width: 125rem;
+        min-width: 75rem;
+        min-height: 25rem;
+        max-height: 45rem;
+        
+    }
+    .cart-2{
+        position: absolute;
+        top: 5rem;
+        left: 55rem;
+    }
+    .apre h2{
+        color:#6081B3;
+        background-color: #C5D4EB;
+        width: 12rem;
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        top: -20rem;
+        left: 40rem;
+
+    }
+    .sou{
+        position: relative;
+        left: 10rem;
+        top: -20rem;
+    }
+    
+}
